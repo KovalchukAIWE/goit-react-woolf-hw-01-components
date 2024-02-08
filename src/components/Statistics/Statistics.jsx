@@ -1,4 +1,3 @@
-import StatisticItem from 'components/StatisticItem/StatisticItem';
 import styles from './Statistics.module.css';
 
 const Statistics = ({ title, data }) => {
@@ -8,7 +7,10 @@ const Statistics = ({ title, data }) => {
 
       <ul className={styles.statList}>
         {data.map(({ id, label, percentage }) => (
-          <StatisticItem key={id} label={label} percentage={percentage} />
+          <li key={id} className={styles.item}>
+            <span className={styles.label}>{label}</span>
+            <span className={styles.percentage}>{percentage}%</span>
+          </li>
         ))}
       </ul>
     </section>

@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(245, 236, 222);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  margin-bottom: 5px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.onLine,
+.offLine {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.onLine {
+  background-color: green;
+}
+
+.offLine {
+  background-color: red;
+}
+
+.avatar {
+  margin: 0 8px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 24px;
+}
