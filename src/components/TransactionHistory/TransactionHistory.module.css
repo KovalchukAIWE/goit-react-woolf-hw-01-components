@@ -1,0 +1,29 @@
+.transactionHistory {
+  max-width: 960px;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: aquamarine;
+  color: white;
+}
+
+.headerItem {
+  padding: 8px 5px;
+  font-size: 24px;
+}
+
+.item {
+  padding: 8px 5px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.row {
+  background-color: rgb(245, 236, 222);
+}

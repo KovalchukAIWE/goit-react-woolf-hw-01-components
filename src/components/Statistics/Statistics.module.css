@@ -19,7 +19,7 @@
 .item {
   text-align: center;
   padding: 5px 13px;
-  border-right: 1px solid blue;
+  border-right: 1px solid aquamarine;
 }
 
 .item:last-child {
