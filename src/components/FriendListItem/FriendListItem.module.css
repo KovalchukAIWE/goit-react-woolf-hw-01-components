@@ -13,8 +13,7 @@
   margin-bottom: 0;
 }
 
-.onLine,
-.offLine {
+.status {
   display: block;
   width: 10px;
   height: 10px;
@@ -22,10 +21,12 @@
 }
 
 .onLine {
+  composes: status;
   background-color: #1dff1d;
 }
 
 .offLine {
+  composes: status;
   background-color: #ff3f3f;
 }
 
